@@ -11,7 +11,6 @@ Each directory contains a standalone example with its own `index.html` and `styl
      - `simple-layout-3`
      - `simple-layout-4`
      - `simple-layout-5`
-     - `l-shape-layout-1`
 
 ---
 
