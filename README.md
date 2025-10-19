@@ -1,4 +1,4 @@
-# # CSS Grid Layout Examples
+# CSS Grid Layout Examples
 
 This repository is a collection of various layouts built with CSS Grid. It's a personal project to practice and showcase different grid configurations.
 
@@ -15,7 +15,7 @@ Each directory contains a standalone example with its own `index.html` and `styl
 
 ---
 
-## 🧑‍🦱 Author
+## Author
 
 [![GitHub](https://img.shields.io/badge/GitHub_RudraXi-%23121011.svg?logo=github&logoColor=white)](https://github.com/rudra-xi)
 
