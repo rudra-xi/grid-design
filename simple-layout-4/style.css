@@ -1,0 +1,27 @@
+body {
+	height: 100dvh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.item {
+	background: cadetblue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-container {
+	display: grid;
+	gap: 0.5em;
+	grid-template-rows: 150px 150px 150px 150px;
+	grid-template-columns: 150px 150px 150px 150px;
+	grid-template-areas:
+		"item--1 item--2 item--3 item--4"
+		"item--1 item--5 item--5 item--4"
+		"item--6 item--5 item--5 item--7"
+		"item--6 item--8 item--9 item--9";
+}

@@ -1,0 +1,25 @@
+body {
+	height: 100dvh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+}
+
+.item {
+	background: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 200px 300px 200px 200px 200px;
+	grid-template-rows: 200px 200px;
+	gap: 1em;
+	grid-template-areas:
+		"item--1 item--2 item--2 item--3 item--4"
+		"item--1 item--5 item--6 item--6 item--4";
+}

@@ -1,0 +1,28 @@
+body {
+	height: 100dvh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.item {
+	background: aquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-container {
+	max-height: 900px;
+	max-width: auto;
+	display: grid;
+	gap: 0.5em;
+	grid-template-rows: 100px 100px 200px 150px;
+	grid-template-columns: 300px 300px 200px;
+	grid-template-areas:
+		"item--1 item--1 item--2"
+		"item--3 item--3 item--2"
+		"item--4 item--5 item--5"
+		"item--4 item--6 item--6";
+}

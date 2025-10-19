@@ -1,0 +1,25 @@
+body {
+	height: 100dvh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.item {
+	background: greenyellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-container {
+	display: grid;
+	gap: 1em;
+	grid-template-rows: 200px 200px 200px;
+	grid-template-columns: 200px 300px 300px;
+	grid-template-areas:
+		"item--1 item--2 item--2"
+		"item--1 item--3 item--4"
+		"item--5 item--5 item--6";
+}
